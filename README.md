@@ -1,6 +1,6 @@
 # Safeouts
 
-###### Safe Outs is an innovative app that shows the customers the protective measures that have been adopted by outlets to make your visit safe.
+#### Safe Outs is an innovative app that shows the customers the protective measures that have been adopted by outlets to make your visit safe.
 
 https://safeouts.1891.in/
 
