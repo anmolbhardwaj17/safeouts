@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="consumer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <title>SafeOuts</title>
+  </head>
+<body>
+  <div class="navbar">
+    <div class="logo-nav"><a href="consumer.html"><img src="images/logo navbar.svg" alt="image"></a></div>
+    <div class="top-content">
+      <h4><a id="business" href="business.html">For Business</a></h4>
+      <h4 id="downloadbtn"><a id="myBtn">Download our app</a></h4>
+    </div>
+  </div>
+
+  <div class="intro margin">
+    <div class="introi">
+      <img src="images/logo intro.svg" alt="image">
+    </div> 
+    <h1>Keeping your outings safe</h1>
+  </div>
+
+  <div class="features margin">
+    <h1>Features</h1>
+    <div class="fgrid">
+      <div class="f1">
+        <img src="images/Contact tracing.svg" alt="">
+        <div class="f-text">
+          <h3>Contact tracing</h3>
+          <p>Get notification when employee at outlet visited by you is tested positive for COVID-19</p>
+        </div>
+      </div>
+      <div class="f2">
+        <img src="images/Real time occupancy.svg" alt="">
+        <div class="f-text">
+          <h3>Realtime occupancy</h3>
+          <p>Check the occupancy level before deciding to visit the outlet. </p>
+        </div>
+      </div>
+      <div class="f3">
+        <img src="images/Safety measures.svg" alt="">
+        <div class="f-text">
+          <h3>Safety measures</h3>
+          <p>Know all safety measures in place by the outlet</p>
+        </div>
+      </div>
+    </div>
+    <div class="button3">
+      <a id="impp" href="./faqconsumer.html"><button class="know-more">Know more</button></a>
+    </div>
+  </div>
+
+  <div class="download-mobile margin">
+    <h1>Download our app</h1>
+
+    <div class="android">
+      <a href="https://play.google.com/store/apps/details?id=com.safeout.customerapp" target="_blank"><img src="images/playstore-icon.png" alt=""></a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="last-grid">
+      <div class="socials">
+        <p class="lp1"><strong>Socials</strong></p>
+        <p><a href="https://www.instagram.com/safeouts/ " target="_blank"><i class="lni lni-instagram-original"></i>  Instagram</a></p>
+        <p><a href="https://www.facebook.com/Safeouts-102049495179848" target="_blank"><i class="lni lni-facebook-original"></i>  Facebook</a></p>
+        <p><a href="https://twitter.com/OutsSafe" target="_blank"><i class="lni lni-twitter-original"></i>  Twitter</a></p>
+      </div>
+      <div class="mail">
+        <p class="lp1"><strong>Contact us</strong></p>
+        <p><a href = "mailto: safeouts@1891.in"><i class="lni lni-envelope"></i>  safeouts@1891.in</a></p>
+      </div>
+      <div class="privacy">
+        <p class="lp1"><a class="policies" href="Privacy Policies.pdf" target="_blank"><strong>Privacy policies</strong></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img class="modal-logo" onClick src="images/logo navbar.svg" alt="image">
+      <h1>Download our app</h1>
+        <div class="q1">
+          <a href="https://play.google.com/store/apps/details?id=com.safeout.customerapp" target="_blank"><img src="images/Consumer qr.png" alt="consumer qrcode android"></a>
+          <h3><i class="lni lni-play-store lni-lg"></i>Play Store</h3>
+        </div>
+    </div>
+  
+  </div>
+
+  <div class="loader-wrapper">
+    <div class="loader"><img src="images/loader.gif" alt=""></div>
+  </div>
+  
+  <script src="consumer.js"></script>
+  <script>
+    $(window).on("load", function(){
+      $(".loader-wrapper").fadeOut("slow");
+    });
+    console.log("done");
+  </script>
+</body>
+</html>
