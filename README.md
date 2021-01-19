@@ -1,3 +1,3 @@
 # safeouts
 
-www.safeouts.1891.in
+https://safeouts.1891.in/
